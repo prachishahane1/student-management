@@ -1,7 +1,13 @@
 # Student Management System
 
 ## Project Description
-This is a Spring Boot based Student Management REST API project.
+This is a Spring Boot REST API project for managing student records.
+
+## Technologies Used
+- Java
+- Spring Boot
+- MySQL
+- Maven
 
 ## Setup Steps
 1. Clone the repository:
@@ -12,20 +18,14 @@ This is a Spring Boot based Student Management REST API project.
 4. Run the project
 
 ## Database Configuration
-Database Name: student_db
-Username: root
+Database Name: student_db  
+Username: root  
 Password: root
 
 ## API Endpoints
 
 ### Create Student (POST)
 POST /students
-
-{
-"name": "Prachi",
-"email": "prachi@gmail.com",
-"course": "Java"
-}
 
 ### Get All Students (GET)
 GET /students
