@@ -19,8 +19,8 @@ This is a Spring Boot REST API project for managing student records.
 
 ## Database Configuration
 Database Name: student_db  
-Username: root  
-Password: root
+Username: system 
+Password: prachi@123
 
 ## API Endpoints
 
